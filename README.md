@@ -1,3 +1,3 @@
 # bagicotaprice
 
-https://prod.liveshare.vsengsaas.visualstudio.com/join?8BE9AA9221FD6CF3F238CF95ECB6E9D29BE5
+https://prod.liveshare.vsengsaas.visualstudio.com/join?34E771A535AB5CEB3A5DE938734B2050F5D1
