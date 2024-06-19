@@ -1,3 +1,20 @@
+:root {
+  --c-text-primary: #000000;
+  --c-text-secondary: #ffffff;
+  --c-text-tertiary: #b4b3b8;
+  --c-text-action: #ee1a31;
+  --c-text-error: #ee1a31;
+  --c-accent-primary: #ee1a31;
+  --c-accent-secondary: #ebae37;
+  --c-border-primary: #2f2e36;
+  --c-background-primary: #192134;
+  --c-background-secondary: #ffffff;
+  --c-background-tertiary: #232228;
+  --c-background-quaternary: #2f2e36;
+  --c-background-quinternary: #f5f5f5;
+  --c-background-sixternary: #eef0ef;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -17,58 +34,18 @@ html {
   overflow-x: hidden;
 }
 
-section {
-  padding: 2rem 9% ;
-
-}
-
-.heading {
-text-align: center;
-font-size: 4rem;
-color: #333;
-padding: 1rem;
-margin: 2rem 0;
-background: rgba(255, 51, 153, .05);
-}
-
-.heading span {
-  color: #41719C;
-  
-}
-
-.btn {
-  display: inline-block;
-  margin-top: 1rem;
-  border-radius: 5rem;
-  background: #333;
-  color: #fff;
-  padding: .9rem 3.5rem;
-  cursor: pointer;
-  font-size: 1.7rem;
-}
-
-.btn:hover {
-  background: #41719C;
-}
-
 header {
   position: fixed;
   top: 0;
   left: 0;
   right: 0;
   background: #fff;
-  padding: 2rem 9%;
+  padding: 1rem 3%;
   display: flex;
   align-items: center;
   justify-content: space-between;
   z-index: 1000;
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
-}
-
-header .logo {
-  font-size: 3rem;
-  color: #333;
-  font-weight: bolder;
 }
 
 header .logo span {
@@ -81,6 +58,51 @@ header .navbar a {
   color: #666;
 }
 
-header .navbar a:hover {
-  color: #41719C;
+
+.footer {
+    padding: 0px;
+    background: var(--c-background-primary);
 }
+.footer-textolegal {
+    padding: 0px;
+    background: var(--c-background-quinternary);
+}
+.footer .padding {
+    max-width: 1920px;
+    padding: 3rem 0rem 3rem 0rem;
+}
+.footer p {
+    font-size: 0.875rem;
+    text-align: center;
+    color: var(--c-text-primary);
+}
+.footer .logo {
+    position: relative;
+    /*display: flex;*/
+    /*align-items: center;*/
+    /*justify-content: center;*/
+}
+.footer .logo img {
+    width: 100%;
+    max-width: 100px;
+}
+.footer .redes img {
+    width: 100%;
+    max-width: 40px;
+    display: inline-block;
+    margin-left: 5px;
+}
+.footer .redes a {
+  text-decoration: none;
+}
+@media (max-width: 991px){
+  .footer .logo img {
+    display: inline-block;
+    width: inherit;
+    max-width: 100%;
+  }
+  .footer .redes {
+    width: 90%;
+  }
+}
+
