@@ -59,6 +59,15 @@ header .navbar a {
 }
 
 
+.main h1 {
+  font-size: 1.75rem;
+  font-weight: 600;
+  line-height: 1.25;
+  display: flex;
+  justify-content: center;
+} 
+
+
 .footer {
     padding: 0px;
     background: var(--c-background-primary);
